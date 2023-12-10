@@ -1,0 +1,273 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+.section {
+    background: #30403c;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    width: 100%;
+    margin: 10rem auto;
+    font-family: "kalnia";
+
+
+}
+
+.section img {
+    height: 600px;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: #fefee3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.footer {
+    padding: 10px 0;
+    background: #597168;
+
+}
+
+.footer .home-sci {
+
+    text-align: center;
+    padding-bottom: 20px;
+    color: #fefee3;
+}
+
+.footer .home-sci a {
+
+    font-size: 30px;
+    color: inherit;
+
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 30%;
+    margin: 0 8px;
+
+    opacity: 1;
+}
+
+.footer .home-sci a:hover {
+    opacity: 0.9;
+
+}
+
+
+
+.logo {
+
+    font-size: 18px;
+    color: #b37032;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Kalnia";
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #b37032;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    font-family: "Kalnia";
+}
+
+.navbar a:hover {
+    color: #1a759f;
+
+
+}
+
+.Home {
+    height: 100vh;
+    width: 100vw;
+    background: url('pic9.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    color: #fefee3;
+    font-family: "Kalnia";
+
+}
+
+.fo {
+    font-family: "Kalnia";
+
+}
+
+.Artt {
+    height: 100vh;
+    width: 100vw;
+    background: #30403c;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: left;
+    padding: 0 10%;
+    color: #fefee3;
+
+}
+
+.home-cont {
+    background: #4c705c;
+    border-radius: 5%;
+    font-family: "Kalnia";
+
+}
+
+.sa {
+
+    font-family: "Shizuru";
+    font-size: 50px;
+}
+
+.gallery-intro {
+    background: #597168;
+    color: #fefee3;
+    text-align: center;
+    width: 100%;
+
+}
+
+.gall-intro {
+    background: #30403c;
+    color: #fefee3;
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+.gall-intro p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    background: #597168;
+}
+
+.text-center {
+    background: #fefee3;
+    color: #4c705c;
+
+}
+
+.sliderr {
+
+    overflow: hidden;
+}
+
+.figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s sliderr infinite;
+
+}
+
+.figure img {
+    float: left;
+    width: 20%;
+
+}
+
+.video {
+    background: #597168;
+    align-items: center;
+    color: #fefee3;
+    text-align: center;
+    width: 100%;
+
+}
+
+.video video {
+    border-radius: 5%;
+    border-color: #fefee3;
+}
+
+.conn {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px;
+    background: url('pic9.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Kalnia";
+}
+
+.con-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fefee3;
+    font-family: "Kalnia";
+}
+
+.con-sec .card {
+    flex: 1;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 2);
+
+}
+
+.con-sec .card img {
+    width: 100%;
+    height: auto;
+}
+
+.con-sec .card h2 {
+    margin: 15px 0px;
+    font-size: 18px;
+    color: #597168;
+    font-family: "kalnia";
+}
+
+@media screen and (max-width: 768px) {
+    .con-sec {
+        flex-direction: column;
+    }
+}
+
+.cons {
+    background: #597168;
+    color: #fefee3;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}

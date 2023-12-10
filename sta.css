@@ -1,0 +1,32 @@
+display: flex;
+justify-content: space-between;
+padding:200px;
+width: 60%;
+margin: 10rem auto 0 auto;
+}
+
+.home-sci {
+
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fefcfc;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fefcfc;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
